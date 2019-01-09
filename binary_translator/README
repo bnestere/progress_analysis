@@ -1,0 +1,18 @@
+Readme for how to use: TODO
+output of "clang -v"
+clang version 3.6.2 (tags/RELEASE_362/final)
+  Target: x86_64-unknown-linux-gnu
+  Thread model: posix
+  Found candidate GCC installation: /opt/gcc/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5
+  Selected GCC installation: /opt/gcc/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5
+  Candidate multilib: .;@m64
+  Selected multilib: .;@m64
+
+output of "llc --version"
+clang version 3.6.2 (tags/RELEASE_362/final)
+  Target: x86_64-unknown-linux-gnu
+  Thread model: posix
+  Found candidate GCC installation: /opt/gcc/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5
+  Selected GCC installation: /opt/gcc/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5
+  Candidate multilib: .;@m64
+  Selected multilib: .;@m64

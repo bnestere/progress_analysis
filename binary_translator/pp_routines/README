@@ -1,0 +1,5 @@
+For LLVM functions, use files pp_begin_test and pp_end_test
+
+clang $BC_OPTS pp_begin_test.c -o pp_begin_test.bc
+llc -march=cpp -cppgen=function -cppfor=pp_begin pp_begin_test.bc
+
